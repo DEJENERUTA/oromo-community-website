@@ -3,18 +3,15 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 img {
   width: 100%;
   height: auto;
   display: block;
 }
-
 #wrapper {
   max-width: 1300px;
   margin: 0 auto;
 }
-
 nav {
   position: relative;
   width: 100%;
@@ -25,7 +22,6 @@ nav {
 nav div {
   position: absolute;
 }
-
 nav ul {
   display: flex;
   justify-content: space-around;
@@ -33,12 +29,9 @@ nav ul {
   font-weight: bold;
   font-size: 1em;
   align-items: center;
-}
-
-.main-nav {
+}.main-nav {
   align-items: center;
 }
-
 nav ul li {
   display: flex;
   align-items: center;
@@ -46,7 +39,6 @@ nav ul li {
   padding: 0.7em 0;
   margin: auto;
 }
-
 nav ul li a {
   color: #f3f4f5;
   text-decoration: none;
@@ -85,7 +77,6 @@ nav ul li a {
   /* dropdown */
   display: none;
 }
-
 h2 {
   text-align: center;
   font-family: "Open Sans", sans-serif;
@@ -93,20 +84,17 @@ h2 {
   color: #000000;
   margin: 30px;
 }
-
 h3 {
   font-family: "Open Sans", sans-serif;
   text-align: center;
   font-size: 20px;
 }
-
 #gallery {
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
 .image-info {
   width: 70%;
   text-align: center;
@@ -117,7 +105,6 @@ h3 {
   color: #ffffff;
   padding: 20px;
 }
-
 .line {
   margin-top: 40px;
   margin-bottom: 30px;
@@ -125,7 +112,6 @@ h3 {
   margin-left: auto;
   margin-right: auto;
 }
-
 .image-info button {
   border: 2px solid #e5e5e5;
   color: #ffffff;
@@ -133,14 +119,12 @@ h3 {
   border-radius: 10px;
   margin-bottom: 20px;
 }
-
 #galleryPhoto {
   padding: 3px;
   border: solid 1px #fff;
   width: 100%;
   height: auto;
 }
-
 #previous {
   position: absolute;
   top: 50%;
@@ -151,7 +135,6 @@ h3 {
   cursor: pointer;
   /* display: none; */
 }
-
 #next {
   position: absolute;
   top: 50%;
@@ -159,7 +142,6 @@ h3 {
   right: 2%;
   cursor: pointer;
 }
-
 figure.gallery {
   max-width: 1300px;
   display: grid;
@@ -175,22 +157,18 @@ figure.gallery {
   cursor: pointer;
   transform: scale(1.05);
 }
-
 .gallery img {
   width: 370px;
 }
-
 .gallery.hidden {
   display: none;
 }
-
 .gallery > div {
   width: 370px;
 }
 .color {
   background-color: #f3f4f5;
 }
-
 .figcaption {
   display: block;
   font-size: 14px;
@@ -198,18 +176,15 @@ figure.gallery {
   margin-top: 1em;
   background-color: #f3f4f5;
 }
-
 .gallery figcaption p {
   font-family: "Open Sans", sans-serif;
   text-align: center;
   font-size: 14px;
   color: #000000;
 }
-
 #grid-container {
   display: grid;
 }
-
 .grid-container2 {
   display: grid;
   justify-content: center;
@@ -221,11 +196,9 @@ figure.gallery {
   font-size: 64px;
   margin: 15px;
 }
-
 .info {
   text-align: center;
 }
-
 button {
   width: 100px;
   text-align: center;
@@ -238,7 +211,6 @@ button {
 .dropdown-list a:hover {
   background-color: #f1f1f1;
 }
-
 .dropdown:hover .dropdown-list {
   display: block;
 }
@@ -255,11 +227,9 @@ button {
   margin-right: auto;
   text-decoration: none;
 }
-
 .grid-container-last {
   display: none;
 }
-
 .vertical-center {
   width: 320px;
   margin: 0 auto;
@@ -272,7 +242,6 @@ button {
 }
 
 /*----footer----*/
-
 footer {
   font-family: "Open Sans", sans-serif;
   max-width: 1300px;
@@ -280,11 +249,9 @@ footer {
   margin: 0 auto;
   background-color: #262f38;
 }
-
 .footer-title {
   font-size: 48px;
 }
-
 .main-footer {
   max-width: 940px;
   color: #f3f4f5;
@@ -294,21 +261,17 @@ footer {
   padding-bottom: 30px;
   padding-top: 60px;
 }
-
 .footer-info {
   width: 40%;
 }
-
 .flext-it {
   display: flex;
   flex-direction: column;
 }
-
 .adress-container {
   display: flex;
   margin-top: 20px;
 }
-
 .icon-wrapper {
   width: 40px;
 }
@@ -316,17 +279,14 @@ footer {
 .footer-info p {
   margin-top: 25px;
 }
-
 .footer-info .adress-container p {
   margin-top: 0;
 }
-
 .footer-form {
   color: #ffffff;
   background-color: #2a353f;
   width: 40%;
 }
-
 input[type="text"] {
   width: 100%;
   padding: 12px 20px;
@@ -337,7 +297,6 @@ input[type="text"] {
   background-color: transparent;
   border: 2px solid #fff;
 }
-
 button[type="submit"] {
   width: 100%;
   background-color: #f3f4f5;
@@ -350,21 +309,17 @@ button[type="submit"] {
 }
 
 /*form*/
-
 .footer-form {
   border-radius: 5px;
   padding: 20px;
 }
-
 .footer-flex {
   display: flex;
   margin-left: 15%;
 }
-
 #message {
   color: red;
 }
-
 textarea {
   width: 300px;
   font-family: inherit;
@@ -375,7 +330,6 @@ textarea {
   padding: 12px 20px;
   border: 2px solid #fff;
 }
-
 #footer-adress,
 #footer-phone,
 #footer-envelop {
@@ -430,13 +384,11 @@ textarea {
   vertical-align: middle;
 }
 /* become a member */
-
-.head {
+.form-heading {
   background-color: DodgerBlue;
   padding: 15px;
 }
-
-.head p {
+h1 {
   color: #fff;
   text-align: center;
   font-size: 30px;
@@ -444,25 +396,22 @@ textarea {
   text-transform: uppercase;
 }
 .content {
-  float: left;
   width: 50%;
-  margin-top: 30px;
-  margin-left: 15px;
+  margin: 0 auto;
+  padding: 30px;
 }
 .form-group {
   margin-bottom: 20px;
   position: relative;
-  width: 400px;
 }
 .form-group input {
   display: block;
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
+  width: 80%;
+  padding: 10px;
   outline: none;
-  border-radius: 5px;
   height: 50px;
-  border: 2px solid #fff;
+  border: 1px solid #3d3d3d;
+  border-radius: 2px;
 }
 .form-group label {
   position: absolute;
@@ -477,19 +426,7 @@ textarea {
   padding: 5px;
   border-radius: 2px;
 }
-.form-group input:valid + label {
-  top: -12px;
-  background-color: green;
-  color: #fff;
-  padding: 5px;
-  border-radius: 2px;
-}
-
 .form select {
-  /* appearance: none;
-  -webkit-appearance: none;
-   -o-appearance: none;
-  -moz-appearance: none;*/
   padding: 10px;
   width: 80%;
   background-color: DodgerBlue;
@@ -497,7 +434,6 @@ textarea {
   cursor: pointer;
   border: 1px solid #fff;
 }
-
 .form input[type="submit"] {
   margin-top: 15px;
   width: 40%;
@@ -513,21 +449,6 @@ textarea {
   margin-left: 19%;
   cursor: pointer;
 }
-
-/*right side */
-.right {
-  float: right;
-  width: 45%;
-  margin-top: 25px;
-  color: #333;
-  word-spacing: 1px;
-  font-size: 18px;
-}
-
-.right .two {
-  padding-top: 15px;
-}
-
 input[type="text"]:checked .one {
   background-color: blue;
 }
