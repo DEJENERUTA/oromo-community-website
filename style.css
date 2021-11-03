@@ -335,6 +335,20 @@ textarea {
 #footer-envelop {
   color: #8bce7b;
 }
+/* about page */
+.about-container{
+  padding:20px 0  20px 0;
+  display: flex;
+ gap: 20px;
+  width: 100%;
+}
+/* event page */
+.event-image{
+  padding:20px 0  20px 0;
+}
+.about-container img, p{
+  width: 50%;
+}
 /*----membership form style----*/
 .container {
   width: 50%;
