@@ -444,7 +444,9 @@ textarea {
   text-transform: uppercase;
 }
 .content {
-  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 50%;
   margin-top: 30px;
   margin-left: 15px;
@@ -468,7 +470,6 @@ textarea {
   position: absolute;
   color: #ccc;
   top: 15px;
-  left: 8px;
 }
 .form-group input:focus + label {
   top: -12px;
@@ -512,20 +513,6 @@ textarea {
   padding: 15px;
   margin-left: 19%;
   cursor: pointer;
-}
-
-/*right side */
-.right {
-  float: right;
-  width: 45%;
-  margin-top: 25px;
-  color: #333;
-  word-spacing: 1px;
-  font-size: 18px;
-}
-
-.right .two {
-  padding-top: 15px;
 }
 
 input[type="text"]:checked .one {
