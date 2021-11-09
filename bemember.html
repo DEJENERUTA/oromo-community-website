@@ -1,26 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
-        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
-        crossorigin="anonymous"
-      >
-        <link rel="stylesheet" href="style.css">
-        <title>Membership</title>
-      </head>
-      <body>
-        <div class="wrapper">
-        <header>
-          <nav>
-            <ul>
-              <a href="index.html">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Membership</title>
+  </head>
+
+  <body>
+    <div id="wrapper">
+      <header>
+        <nav>
+          <ul>
+            <a href="index.html">
               <li class="logo">
-                <span class="fddk-logo">FODK</span>  
+                <span class="fddk-logo">FODK</span>
               </li>
             </a>
               <li class="main-nav">
@@ -73,43 +72,82 @@
       <form action="" class="form">
         <div class="form-group">
           <input type="text" name="Name" id="" required class="form-control" />
+            <li class="main-nav">
+              <a href="index.html">Home</a>
+            </li>
+            <li class="main-nav">
+              <a href="about.html">About Us</a>
+            </li>
+            <li class="main-nav">
+              <a href="event.html">Events</a>
+            </li>
+            <li class="main-nav">
+              <a href="membership.html">Membership</a>
+              <div>
+                <ul>
+                  <li class="bla"><a href="bemember.html"> Be come member</a></li>
+                  <li class="bla">pay membership</li>
+                </ul>
+              </div>
+            </li>
+            <li class="main-nav">
+              <a href="blog.html">Blog</a>
+            </li>
+            <li class="main-nav">
+              <a href="children.html">Children</a>
+            </li>
+            <li class="social-icons">
+              <a href="https://www.facebook.com/dejene.daba.73/">
+                <i class="fab fa-facebook-square"></i>
+              </a>
+              <a href="https://www.instagram.com/dejened/" target="blank" https:>
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/dejene-daba-432029140" target="blank">
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <div class="main-container">
+          <div class="form-heading">
+            <h1>Become a Member</h1>
+          </div>
+          <div class="content">
+            <form action="" class="form">
+              <div class="form-group">
+                <input type="text" name="Name" id="" required class="form-control" />
 
-          <label for="Name" class="form-control-placeholder">Name * </label>
-        </div>
-        <div class="form-group">
-          <input
-            type="text"
-            name="NickName"
-            id=""
-            class="form-control"
-            required
-          />
+                <label for="Name" class="form-control-placeholder">Name * </label>
+              </div>
+              <div class="form-group">
+                <input type="text" name="NickName" id="" class="form-control" required />
 
-          <label for="Nick" class="form-control-placeholder">Sure Name *</label>
+                <label for="Nick" class="form-control-placeholder">Sure Name *</label>
+              </div>
+              <div class="form-group">
+                <input type="email" name="Email" id="" class="form-control" required />
+                <label for="Email">Email *</label>
+              </div>
+              <select name="" id="">
+                <option value="hide">Country</option>
+                <option value="">Denmark</option>
+                <option value="">Sweden</option>
+                <option value="">Norway</option>
+                <option value="">Finland</option>
+                <option value="">Germany</option>
+              </select>
+              <input type="submit" value="ADD MEMBER" />
+            </form>
+          </div>
         </div>
-        <div class="form-group">
-          <input
-            type="email"
-            name="Email"
-            id=""
-            class="form-control"
-            required
-          />
-          <label for="Email">Email *</label>
-        </div>
-        <select name="" id="">
-          <option value="hide">Country</option>
-          <option value="">Denmark</option>
-          <option value="">Sweden</option>
-          <option value="">Norway</option>
-          <option value="">Germany</option>
-          <option value="">Finland</option>
-        </select>
-        <input type="submit" value="ADD MEMBER" />
-      </form>
     </div>
     </div> 
   <!--   <footer>
+    </main>
+    <!--  <footer>
         <div class="main-footer">
           <div class="footer-info">
             <h4 class="footer-title">Contact us</h4>
@@ -118,10 +156,7 @@
             </p>
             <div class="adress-container">
               <div class="icon-wrapper">
-                <i
-                  id="footer-adress"
-                  class="fas fa-map-marker-alt"
-                ></i>
+                <i id="footer-adress" class="fas fa-map-marker-alt"></i>
               </div>
               <div class="flext-it">
                 <h4>Address</h4>
@@ -132,10 +167,7 @@
             </div>
             <div class="adress-container">
               <div class="icon-wrapper">
-                <i
-                  id="footer-phone"
-                  class="fas fa-phone-alt"
-                ></i>
+                <i id="footer-phone" class="fas fa-phone-alt"></i>
               </div>
               <div class="flext-it">
                 <h4>call to us on</h4>
@@ -144,10 +176,7 @@
             </div>
             <div class="adress-container">
               <div class="icon-wrapper">
-                <i
-                  id="footer-envelop"
-                  class="fas fa-envelope"
-                ></i>
+                <i id="footer-envelop" class="fas fa-envelope"></i>
               </div>
               <div class="flext-it">
                 <h4>write to us on</h4>
@@ -157,29 +186,12 @@
           </div>
           <div class="footer-form">
             <div>
-              <form
-                action="thankyou.html"
-                id="subscribeForm"
-              >
+              <form action="thankyou.html" id="subscribeForm">
                 <h4>Send us a message</h4>
-                <input
-                  type="text"
-                  name="name"
-                  placeholder="write your name here..."
-                >
-                <input
-                  type="text"
-                  name="email"
-                  placeholder="write your email here... "
-                >
-                <textarea
-                  name="message"
-                  placeholder="write your message here..."
-                ></textarea>
-                <button
-                  type="submit"
-                  id="submit"
-                >
+                <input type="text" name="name" placeholder="write your name here...">
+                <input type="text" name="email" placeholder="write your email here... ">
+                <textarea name="message" placeholder="write your message here..."></textarea>
+                <button type="submit" id="submit">
                   <i class="fas fa-envelope"></i>
                   Send a message
                 </button>
@@ -189,5 +201,11 @@
           </div>
         </div>
       </footer> -->
+              <!--form-->
+    </div>
+    </div>
+    </div>
+    </footer> -->
   </body>
+
 </html>
