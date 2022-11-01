@@ -377,15 +377,37 @@ p {
 /*----membership form style----*/
 .container {
   width: 100%;
-  align-items: center;
-  justify-content: center;
+  display: flex;
+  justify-content: space-around;
   background-color: #8a8f94;
   padding: 20px;
-  margin: 0 auto;
 }
-.row {
-  margin: 0 auto;
+.card-payment {
+  width: 100%;
+  padding: 20px;
 }
+.form-control {
+  padding: 12px 20px;
+  margin: 8px 0;
+  font-family: inherit;
+  display: inline-block;
+  border-radius: 8px;
+  background-color: transparent;
+  border: 2px solid #fff;
+}
+.mobile-payment {
+  width: 100%;
+}
+.mobile-pay-heading {
+  font-size: 1.5em;
+  text-align: center;
+  margin: 20px;
+  font-weight: bold;
+  color: #ffffff;
+}
+/* .row {
+  margin: 0 auto;
+} */
 .panel-heading {
   text-align: center;
   font-size: 1.5em;
@@ -420,17 +442,6 @@ p {
 .credit-card-box label {
   display: block;
   margin: 15px;
-}
-/* The old "center div vertically" hack */
-.credit-card-box .display-table {
-  display: flex;
-}
-.credit-card-box .display-tr {
-  display: table-row;
-}
-.credit-card-box .display-td {
-  display: table-cell;
-  vertical-align: middle;
 }
 /* become a member */
 .form-heading {
