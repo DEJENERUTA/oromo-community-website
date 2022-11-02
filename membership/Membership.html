@@ -1,15 +1,9 @@
 <!DOCTYPE html>
-<html lang="da">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap"
-      rel="stylesheet"
-    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
@@ -17,7 +11,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
-    <title>Oromon Community in Denmark</title>
+    <title>Membership</title>
   </head>
 
   <body>
@@ -34,27 +28,28 @@
               <a href="index.html">Home</a>
             </li>
             <li class="main-nav">
-              <a href="about.html">About</a>
+              <a href="About.html">About</a>
             </li>
-            <li class="main-nav dropdown">
-              <a href="event.html">Events</a>
+            <li class="Main-nav dropdown">
+              <a href="Event.html">Events</a>
               <div class="dropdown-list">
                 <a href=""> Upcoming events </a>
                 <a href=""> Past events </a>
               </div>
             </li>
             <li class="main-nav dropdown">
-              <a href="membership.html">Membership</a>
+              <a href="Membership.html">Membership</a>
               <div class="dropdown-list">
-                <a href="bemember.html"> Become member </a>
-                <a href="membership.html"> Pay membership</a>
+                <a href="Bemember.html"> Become member </a>
+                <a href="Membership.html"> Pay membership </a>
+                <a href="Donate.html"> Donate </a>
               </div>
             </li>
             <li class="main-nav">
-              <a href="blog.html">Blog</a>
+              <a href="Blog.html">Blog</a>
             </li>
             <li class="main-nav">
-              <a href="children.html">Children</a>
+              <a href="Children.html">Children</a>
             </li>
             <li class="social-icons">
               <a href="https://www.facebook.com/dejene.daba.73/">
@@ -73,8 +68,101 @@
           </ul>
         </nav>
       </header>
-      <!--header-->
 
+      <div class="container">
+        <div class="row">
+          <div class="card-payment">
+            <!-- CREDIT CARD FORM STARTS HERE -->
+            <div class="panel panel-default credit-card-box">
+              <div class="panel-heading">
+                <h3 class="panel-title">Payment Details</h3>
+              </div>
+              <div class="panel-body">
+                <form role="form" id="payment-form">
+                  <div class="row">
+                    <div class="col-xs-12">
+                      <div class="form-group">
+                        <label for="cardNumber">CARD NUMBER</label>
+                        <div class="input-group">
+                          <input
+                            type="tel"
+                            class="form-control"
+                            name="cardNumber"
+                            placeholder="Valid Card Number"
+                            autocomplete="cc-number"
+                            required
+                            autofocus
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-xs-7 col-md-7">
+                      <div class="form-group">
+                        <label for="cardExpiry"
+                          ><span class="hidden-xs">EXPIRATION</span
+                          ><span class="visible-xs-inline">EXP</span>
+                          DATE</label
+                        >
+                        <input
+                          type="tel"
+                          class="form-control"
+                          name="cardExpiry"
+                          placeholder="MM / YY"
+                          autocomplete="cc-exp"
+                          required
+                        />
+                      </div>
+                    </div>
+                    <div class="col-xs-5 col-md-5 pull-right">
+                      <div class="form-group">
+                        <label for="cardCVC">CV CODE</label>
+                        <input
+                          type="tel"
+                          class="form-control"
+                          name="cardCVC"
+                          placeholder="CVC"
+                          autocomplete="cc-csc"
+                          required
+                        />
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row" style="display: none">
+                    <div class="col-xs-12">
+                      <p class="payment-errors"></p>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <!-- CREDIT CARD FORM ENDS HERE -->
+          </div>
+        </div>
+        <div class="mobile-pay">
+          <h2 class="mobile-pay-heading">MobilePay</h2>
+          <p>Pay with your mobile phone</p>
+          <img id="mobilepay" src="images/mobilepay.jpeg" alt="mobile-pay" />
+          <!-- generate a QR code from the MobilePay and include that on the website -->
+          <div class="qr-code">
+            <img src="images/qr-code.png" alt="qr-code" />
+
+            <p>Scan the QR code to pay</p>
+
+            <p>or</p>
+
+            <p>Pay with your mobile phone</p>
+
+            <p>Phone number: 12345678</p>
+
+            <p>Amount: 100 DKK</p>
+
+            <p>Message: FODK</p>
+          </div>
+        </div>
+      </div>
       <footer>
         <div class="main-footer">
           <div class="footer-info">
@@ -140,9 +228,6 @@
           </div>
         </div>
       </footer>
-      <!--footer-->
     </div>
-    <!--wrapper-->
-    <script src="script.js"></script>
   </body>
 </html>

@@ -28,27 +28,27 @@
               <a href="index.html">Home</a>
             </li>
             <li class="main-nav">
-              <a href="about.html">About</a>
+              <a href="About.html">About</a>
             </li>
             <li class="main-nav dropdown">
-              <a href="event.html">Events</a>
+              <a href="Event.html">Events</a>
               <div class="dropdown-list">
                 <a href=""> Upcoming events </a>
                 <a href=""> Past events </a>
               </div>
             </li>
             <li class="main-nav dropdown">
-              <a href="membership.html">Membership</a>
+              <a href="Membership.html">Membership</a>
               <div class="dropdown-list">
-                <a href="bemember.html"> Become member </a>
-                <a href="membership.html"> Pay membership </a>
+                <a href="Bemember.html"> Become member </a>
+                <a href="Membership.html"> Pay membership </a>
               </div>
             </li>
             <li class="main-nav">
-              <a href="blog.html">Blog</a>
+              <a href="Blog.html">Blog</a>
             </li>
             <li class="main-nav">
-              <a href="children.html">Children</a>
+              <a href="Children.html">Children</a>
             </li>
             <li class="social-icons">
               <a href="https://www.facebook.com/dejene.daba.73/">
@@ -68,82 +68,85 @@
         </nav>
       </header>
 
-      <div class="container">
-        <div class="row">
-          <div class="card-payment">
-            <!-- CREDIT CARD FORM STARTS HERE -->
-            <div class="panel panel-default credit-card-box">
-              <div class="panel-heading">
-                <h3 class="panel-title">Payment Details</h3>
-              </div>
-              <div class="panel-body">
-                <form role="form" id="payment-form">
-                  <div class="row">
-                    <div class="col-xs-12">
-                      <div class="form-group">
-                        <label for="cardNumber">CARD NUMBER</label>
-                        <div class="input-group">
+      <div class="donation-container">
+        <p>Donate any amount of your interest to support FODK</p>
+        <div class="container">
+          <div class="row">
+            <div class="card-payment">
+              <!-- CREDIT CARD FORM STARTS HERE -->
+              <div class="panel panel-default credit-card-box">
+                <div class="panel-heading">
+                  <h3 class="panel-title">Payment Details</h3>
+                </div>
+                <div class="panel-body">
+                  <form role="form" id="payment-form">
+                    <div class="row">
+                      <div class="col-xs-12">
+                        <div class="form-group">
+                          <label for="cardNumber">CARD NUMBER</label>
+                          <div class="input-group">
+                            <input
+                              type="tel"
+                              class="form-control"
+                              name="cardNumber"
+                              placeholder="Valid Card Number"
+                              autocomplete="cc-number"
+                              required
+                              autofocus
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-xs-7 col-md-7">
+                        <div class="form-group">
+                          <label for="cardExpiry"
+                            ><span class="hidden-xs">EXPIRATION</span
+                            ><span class="visible-xs-inline">EXP</span>
+                            DATE</label
+                          >
                           <input
                             type="tel"
                             class="form-control"
-                            name="cardNumber"
-                            placeholder="Valid Card Number"
-                            autocomplete="cc-number"
+                            name="cardExpiry"
+                            placeholder="MM / YY"
+                            autocomplete="cc-exp"
                             required
-                            autofocus
+                          />
+                        </div>
+                      </div>
+                      <div class="col-xs-5 col-md-5 pull-right">
+                        <div class="form-group">
+                          <label for="cardCVC">CV CODE</label>
+                          <input
+                            type="tel"
+                            class="form-control"
+                            name="cardCVC"
+                            placeholder="CVC"
+                            autocomplete="cc-csc"
+                            required
                           />
                         </div>
                       </div>
                     </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-xs-7 col-md-7">
-                      <div class="form-group">
-                        <label for="cardExpiry"
-                          ><span class="hidden-xs">EXPIRATION</span
-                          ><span class="visible-xs-inline">EXP</span>
-                          DATE</label
-                        >
-                        <input
-                          type="tel"
-                          class="form-control"
-                          name="cardExpiry"
-                          placeholder="MM / YY"
-                          autocomplete="cc-exp"
-                          required
-                        />
-                      </div>
-                    </div>
-                    <div class="col-xs-5 col-md-5 pull-right">
-                      <div class="form-group">
-                        <label for="cardCVC">CV CODE</label>
-                        <input
-                          type="tel"
-                          class="form-control"
-                          name="cardCVC"
-                          placeholder="CVC"
-                          autocomplete="cc-csc"
-                          required
-                        />
-                      </div>
-                    </div>
-                  </div>
 
-                  <div class="row" style="display: none">
-                    <div class="col-xs-12">
-                      <p class="payment-errors"></p>
+                    <div class="row" style="display: none">
+                      <div class="col-xs-12">
+                        <p class="payment-errors"></p>
+                      </div>
                     </div>
-                  </div>
-                </form>
+                  </form>
+                </div>
               </div>
+              <!-- CREDIT CARD FORM ENDS HERE -->
             </div>
-            <!-- CREDIT CARD FORM ENDS HERE -->
           </div>
-        </div>
-        <div class="mobile-pay">
-          <h2 class="mobile-pay-heading">MobilePay</h2>
-          <p>Pay with your mobile phone</p>
-          <img src="images/mobilepay.jpeg" alt="mobile-pay" />
+          <div class="mobile-pay">
+            <h2 class="mobile-pay-heading">MobilePay</h2>
+            <p>Pay with your mobile phone</p>
+            <img src="images/mobilepay.jpeg" alt="mobile-pay" />
+          </div>
         </div>
       </div>
       <footer>

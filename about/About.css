@@ -1,0 +1,18 @@
+.about-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.about-img {
+  width: 50%;
+}
+.about-desc {
+  width: 50%;
+}
+
+.about-container img,
+p {
+  font-size: 1em;
+}
