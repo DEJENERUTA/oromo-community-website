@@ -32,6 +32,7 @@ nav ul li {
   text-decoration: none;
   padding: 0.7em 0;
   margin: auto;
+  font-size: 1.5rem;
 }
 nav ul li a {
   color: #f3f4f5;
@@ -83,6 +84,81 @@ nav ul li a {
 .bla {
   /* dropdown */
   display: none;
+}
+/*----membership form style----*/
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-color: #8a8f94;
+  padding: 20px;
+}
+.donation-container {
+  color: #ffffff;
+  background-color: red;
+  background-color: #8a8f94;
+  text-align: center;
+  font-size: 1.5em;
+  padding: 20px;
+}
+.card-payment {
+  width: 100%;
+  padding: 20px;
+}
+.form-control {
+  padding: 12px 20px;
+  margin: 8px 0;
+  font-family: inherit;
+  display: inline-block;
+  border-radius: 8px;
+  background-color: transparent;
+  border: 2px solid #fff;
+}
+.mobile-payment {
+  width: 100%;
+}
+.mobile-pay-heading {
+  font-size: 1.5em;
+  text-align: center;
+  margin: 20px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.panel-heading {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.panel-title {
+  font-size: 1.5em;
+}
+.credit-card-box .panel-title {
+  display: inline;
+  font-weight: bold;
+}
+.credit-card-box,
+.form-control.error {
+  outline: 0;
+  margin: 0 auto;
+}
+.credit-card-box label.error {
+  font-weight: bold;
+  color: red;
+  padding: 2px 8px;
+  margin-top: 2px;
+}
+.credit-card-box .payment-errors {
+  font-weight: bold;
+  color: red;
+  padding: 2px 8px;
+  margin-top: 2px;
+}
+.credit-card-box label {
+  display: block;
+  margin: 15px;
 }
 /*----footer----*/
 footer {

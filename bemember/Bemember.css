@@ -32,6 +32,7 @@ nav ul li {
   text-decoration: none;
   padding: 0.7em 0;
   margin: auto;
+  font-size: 1.5rem;
 }
 nav ul li a {
   color: #f3f4f5;
@@ -83,6 +84,71 @@ nav ul li a {
 .bla {
   /* dropdown */
   display: none;
+}
+/* become a member */
+.form-heading {
+  text-align: center;
+  font-size: 1.5em;
+}
+h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+  font-weight: Normal;
+  text-transform: uppercase;
+}
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 30px;
+}
+.form {
+  width: 100%;
+}
+.form-group {
+  margin-bottom: 20px;
+}
+.form-group input {
+  display: block;
+  width: 100%;
+  padding: 40px;
+  outline: none;
+  border: 1px solid #3d3d3d;
+  border-radius: 8px;
+}
+.form-group label {
+  color: #ccc;
+  top: 15px;
+}
+.send-message {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+.form select {
+  padding: 30px;
+  background-color: DodgerBlue;
+  color: #fff;
+  cursor: pointer;
+  border: 1px solid #fff;
+  font-size: 15px;
+}
+.form input[type="submit"] {
+  margin-top: 15px;
+  background-color: DodgerBlue;
+  color: #ffffff;
+  outline: none;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid #fff;
+  font-size: 15px;
+  display: block;
+  padding: 30px;
+  cursor: pointer;
+}
+input[type="text"]:checked .one {
+  background-color: blue;
 }
 /*----footer----*/
 footer {
