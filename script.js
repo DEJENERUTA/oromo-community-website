@@ -11,9 +11,9 @@ function showMore() {
   gallery2.classList.toggle("hidden"); //it is an instruction which says when click the but, show the hidden and hidde the displayed
 }
 /* here is image gallery*/
-const bigImg = document.querySelector("#galleryPhoto");
+const bigImg = document.querySelector("#gallery"); // here changed galleryPhoto id to gallery
 const photoList = [
-  "gallery_04 1",
+  "gallery_04",
   "exams-image2",
   "exams-image3",
   "exams-image4",
@@ -86,20 +86,4 @@ function validate(e) {
     e.preventDefault();
     return false;
   }
-}
-//create a mobilepay
-function name() {
-  const name = document.querySelector("#name").value;
-  const email = document.querySelector("#email").value;
-  const message = document.querySelector("#message").value;
-  const mobilePay = document.querySelector("#mobilePay");
-  mobilePay.innerHTML =
-    "Name: " +
-    name +
-    "<br>" +
-    "Email: " +
-    email +
-    "<br>" +
-    "Message: " +
-    message;
 }
