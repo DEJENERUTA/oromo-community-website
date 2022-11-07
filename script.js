@@ -7,11 +7,11 @@ const showMoreButton = document.querySelector("#moreButton");
 showMoreButton.addEventListener("click", showMore); //tilføje eventlistener, when we click eventlistener, we will run the function
 
 function showMore() {
-  gallery1.classList.toggle("hidden"); //show one , hidde theother i will find gallery1, if it has class hidden, remove it,
+  gallery1.classList.toggle("hidden"); //show one , hidde the other i will find gallery1, if it has class hidden, remove it,
   gallery2.classList.toggle("hidden"); //it is an instruction which says when click the but, show the hidden and hidde the displayed
 }
 /* here is image gallery*/
-const bigImg = document.querySelector("#gallery"); // here changed galleryPhoto id to gallery
+const bigImg = document.querySelector("#gallery"); // here I changed galleryPhoto id to gallery
 const photoList = [
   "gallery_04",
   "exams-image2",

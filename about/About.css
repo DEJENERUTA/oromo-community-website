@@ -90,15 +90,14 @@ nav ul li a {
   margin-top: 20px;
   margin-bottom: 20px;
   display: flex;
-  justify-content: space-between;
+  gap: 20px;
   width: 100%;
 }
-.about-img {
+.about-container {
   width: 50%;
 }
 .about-desc {
   width: 50%;
-  background-color: aquamarine;
 }
 
 .about-container img,
